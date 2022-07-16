@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p><span id="cart-number"></span> item(s) in cart - <button onclick="clearCart()">clear</button></p>
+    <div id="categories-list">
+
+    </div>
+    <hr>
+    <ul id="products-list"></ul>
+    <hr>
+    <h1>MY CART</h1>
+    <h3 id="empty-cart-message" >Mafamma 7atta produit !</h3>
+    <table id="cart-table" border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>nom</td>
+                <td>prix unitaire</td>
+                <td>#</td>
+                <td>qte</td>
+                <td>#</td>
+                <td>prix totale</td>
+            </tr>
+        </thead>
+        <!-- products in cart -->
+        <tbody id="products-in-cart"></tbody>
+        <tfoot id="products-total-price"></tfoot>
+    </table>
+
+    <script src="./assets/js/controle.js"></script>
+</body>
+
+</html>
